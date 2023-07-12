@@ -1,0 +1,11 @@
+After installing node modules:
+
+	Go to node modules/expo/AppEntry.js.
+	Replace App with index in this file.
+  
+To run:
+
+	Enable USB debugging on phone.
+	npm start on backend and mobile frontend.
+	Switch to tunnel on the localhost page.
+	run 'adb reverse tcp:5000 tcp:5000' in a terminal (allows the phone to work with the laptop's localhost urls). Better to do this in a separate terminal, in case you get a Network Error due to the phone disconnecting or whatever. 
